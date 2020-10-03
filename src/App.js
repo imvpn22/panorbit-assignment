@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
-
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Profile from './components/Profile';
 

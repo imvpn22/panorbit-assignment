@@ -1,5 +1,7 @@
+// import Axios from 'axios';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions';
 
@@ -23,7 +25,7 @@ class Home extends Component {
           <div className="list-header">Select an account</div>
           <div className="list-body">
             {this.state.users.map((user, idx) => (
-              <a className="list-item" key={idx} href={'/profile/' + user.id}>
+              <Link className="list-item" key={idx} to={'/profile/' + user.id}>
                 <div
                   className="item-img"
                   style={{
@@ -31,7 +33,7 @@ class Home extends Component {
                   }}
                 ></div>
                 <div>{user.name}</div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>

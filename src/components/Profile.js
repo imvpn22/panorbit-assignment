@@ -19,7 +19,6 @@ class Profile extends Component {
 
     this.props.actions.getUserList().then(() => {
       const userData = this.props.users.find(user => user.id === userId);
-
       this.setState({ users: this.props.users, userData });
     });
   }
