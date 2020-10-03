@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/panorbit-assignment/static/css/main.0bca07b4.chunk.css",
-    "main.js": "/panorbit-assignment/static/js/main.22b76bf9.chunk.js",
-    "main.js.map": "/panorbit-assignment/static/js/main.22b76bf9.chunk.js.map",
+    "main.js": "/panorbit-assignment/static/js/main.c655926a.chunk.js",
+    "main.js.map": "/panorbit-assignment/static/js/main.c655926a.chunk.js.map",
     "runtime-main.js": "/panorbit-assignment/static/js/runtime-main.e105eaf3.js",
     "runtime-main.js.map": "/panorbit-assignment/static/js/runtime-main.e105eaf3.js.map",
-    "static/js/2.b1fb4c63.chunk.js": "/panorbit-assignment/static/js/2.b1fb4c63.chunk.js",
-    "static/js/2.b1fb4c63.chunk.js.map": "/panorbit-assignment/static/js/2.b1fb4c63.chunk.js.map",
+    "static/js/2.d4ca6ea7.chunk.js": "/panorbit-assignment/static/js/2.d4ca6ea7.chunk.js",
+    "static/js/2.d4ca6ea7.chunk.js.map": "/panorbit-assignment/static/js/2.d4ca6ea7.chunk.js.map",
     "index.html": "/panorbit-assignment/index.html",
-    "precache-manifest.86c0e71f7f665ddd60087e9a1a33779e.js": "/panorbit-assignment/precache-manifest.86c0e71f7f665ddd60087e9a1a33779e.js",
+    "precache-manifest.5a316fc40b28f4b1e6f9204e0763e90c.js": "/panorbit-assignment/precache-manifest.5a316fc40b28f4b1e6f9204e0763e90c.js",
     "service-worker.js": "/panorbit-assignment/service-worker.js",
     "static/css/main.0bca07b4.chunk.css.map": "/panorbit-assignment/static/css/main.0bca07b4.chunk.css.map",
-    "static/js/2.b1fb4c63.chunk.js.LICENSE.txt": "/panorbit-assignment/static/js/2.b1fb4c63.chunk.js.LICENSE.txt"
+    "static/js/2.d4ca6ea7.chunk.js.LICENSE.txt": "/panorbit-assignment/static/js/2.d4ca6ea7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e105eaf3.js",
-    "static/js/2.b1fb4c63.chunk.js",
+    "static/js/2.d4ca6ea7.chunk.js",
     "static/css/main.0bca07b4.chunk.css",
-    "static/js/main.22b76bf9.chunk.js"
+    "static/js/main.c655926a.chunk.js"
   ]
 }

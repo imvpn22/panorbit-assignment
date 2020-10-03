@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee1b3d39fcc0ab7b6f39c5aed2bb34b3",
+    "revision": "7cb5503f065ea1cea4c0c53c2b780146",
     "url": "/panorbit-assignment/index.html"
   },
   {
-    "revision": "351a79e64ae5e05e7df8",
+    "revision": "7ab4f160bc1264a21a2d",
     "url": "/panorbit-assignment/static/css/main.0bca07b4.chunk.css"
   },
   {
-    "revision": "587d286eb02e4b2f4ae9",
-    "url": "/panorbit-assignment/static/js/2.b1fb4c63.chunk.js"
+    "revision": "4ec505b75ad3f030094d",
+    "url": "/panorbit-assignment/static/js/2.d4ca6ea7.chunk.js"
   },
   {
     "revision": "54fd6816419f7824e2804745930c9117",
-    "url": "/panorbit-assignment/static/js/2.b1fb4c63.chunk.js.LICENSE.txt"
+    "url": "/panorbit-assignment/static/js/2.d4ca6ea7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "351a79e64ae5e05e7df8",
-    "url": "/panorbit-assignment/static/js/main.22b76bf9.chunk.js"
+    "revision": "7ab4f160bc1264a21a2d",
+    "url": "/panorbit-assignment/static/js/main.c655926a.chunk.js"
   },
   {
     "revision": "14ac503d9831a13937e6",
