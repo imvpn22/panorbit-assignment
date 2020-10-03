@@ -41,5 +41,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://imvpn22.github.io/panorbit-assignment"
+  "homepage": "https://imvpn22.github.io/panorbit-assignment",
+  "devDependencies": {
+    "redux-devtools-extension": "^2.13.8"
+  }
 }

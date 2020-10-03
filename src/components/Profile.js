@@ -124,7 +124,7 @@ class Profile extends Component {
 }
 
 const mapStateToProps = state => ({
-  users: state.users
+  users: state.users.users
 });
 
 const mapDispatchToProps = dispatch => ({

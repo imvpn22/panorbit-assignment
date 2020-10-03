@@ -11,6 +11,7 @@ class Home extends Component {
   componentDidMount() {
     // APi call to load profiles
     this.props.actions.getUserList().then(() => {
+      console.log(this.props.users);
       this.setState({ users: this.props.users });
     });
   }
@@ -40,7 +41,7 @@ class Home extends Component {
 }
 
 const mapStateToProps = state => ({
-  users: state.users
+  users: state.users.users
 });
 
 const mapDispatchToProps = dispatch => ({
