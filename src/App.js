@@ -2,13 +2,13 @@ import React from 'react';
 import './App.scss';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
-import Profile from './components/Profile';
+import User from './components/User';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/profile/:userId" component={Profile} />
+        <Route path="/user/:userId" component={User} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>

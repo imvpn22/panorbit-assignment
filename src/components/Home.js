@@ -25,7 +25,11 @@ class Home extends Component {
           <div className="list-header">Select an account</div>
           <div className="list-body">
             {this.state.users.map((user, idx) => (
-              <Link className="list-item" key={idx} to={'/profile/' + user.id}>
+              <Link
+                className="list-item"
+                key={idx}
+                to={'/user/' + user.id + '/profile'}
+              >
                 <div
                   className="item-img"
                   style={{

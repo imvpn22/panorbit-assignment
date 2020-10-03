@@ -160,3 +160,13 @@
 .border-top {
   border-top: 1px solid #ddd;
 }
+
+.coming-soon-cont {
+  height: calc(100% - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5.5rem;
+  font-weight: 800;
+  color: #eee;
+}
