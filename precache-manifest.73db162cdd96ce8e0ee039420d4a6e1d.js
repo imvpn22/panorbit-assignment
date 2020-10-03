@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21a647ebf2ade4e08d57c56e6e34c965",
+    "revision": "e28dc4914da3095e3a5517473e31f8cc",
     "url": "/panorbit-assignment/index.html"
   },
   {
-    "revision": "b964f499340adc8583c1",
+    "revision": "70c96aae4f41c0a78ec5",
     "url": "/panorbit-assignment/static/css/main.0bca07b4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/panorbit-assignment/static/js/2.177d7bbf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b964f499340adc8583c1",
-    "url": "/panorbit-assignment/static/js/main.8d48abb4.chunk.js"
+    "revision": "70c96aae4f41c0a78ec5",
+    "url": "/panorbit-assignment/static/js/main.ebf10c14.chunk.js"
   },
   {
     "revision": "14ac503d9831a13937e6",
