@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import { Provider } from 'react-redux';
+import { applyMiddleware, compose, createStore } from 'redux';
+import rootReducer from './reducers/users';
+import monitorReducerEnhancer from './enhancers/monitorReducer';
+import thunkMiddleware from 'redux-thunk';
+import loggerMiddleware from './middleware/logger';
+
+const middlewareEnhancer = applyMiddleware(loggerMiddleware, thunkMiddleware);
+const composedEnhancers = compose(middlewareEnhancer, monitorReducerEnhancer);
+
+const store = createStore(rootReducer, undefined, composedEnhancers);
+
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+  </Provider>,
   document.getElementById('root')
 );
 

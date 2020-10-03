@@ -1,0 +1,45 @@
+.page-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.user-list-cont {
+  width: 570px;
+  margin: 3rem auto;
+  // padding: 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 1px 2px 20px 0px #e0e0e0;
+  .list-header {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #f6f6f6;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+    color: #555;
+  }
+  .list-body {
+    height: 400px;
+    overflow-y: scroll;
+    .list-item {
+      margin: 0.3rem 2rem;
+      padding: 0.5rem 0;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #444;
+      border-bottom: 1px solid #ddd;
+      .item-img {
+        border-radius: 50%;
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1rem;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
+}
