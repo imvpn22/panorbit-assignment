@@ -25,7 +25,6 @@ class Home extends Component {
               <a className="list-item" key={idx} href={'/profile/' + user.id}>
                 <div
                   className="item-img"
-                  src={user.profilepicture}
                   style={{
                     backgroundImage: 'url(' + user.profilepicture + ')'
                   }}
