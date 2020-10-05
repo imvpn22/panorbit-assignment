@@ -30,12 +30,9 @@ class Home extends Component {
                 key={idx}
                 to={'/user/' + user.id + '/profile'}
               >
-                <div
-                  className="item-img"
-                  style={{
-                    backgroundImage: 'url(' + user.profilepicture + ')'
-                  }}
-                ></div>
+                <div className="item-img">
+                  <img src={user.profilepicture} alt="user profile" />
+                </div>
                 <div>{user.name}</div>
               </Link>
             ))}
